@@ -17,6 +17,7 @@ const Todo = () => {
         <> 
         <form onSubmit = {handleFormSubmit}>
             <input 
+                data-testid=""
                 onChange = {handleInputChange}
                 placeholder = "Type a new task here"
                 typr = "text"
