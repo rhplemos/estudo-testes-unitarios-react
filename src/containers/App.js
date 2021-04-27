@@ -1,7 +1,7 @@
-import React from 'react'
+//import React from 'react'
 
-import Todo from '../components/Todo'
+import Todo from '../components/Todo.js'
 
-const App = () => <h1>App</h1>
+const App = () => <Todo/>
 
 export default App;
